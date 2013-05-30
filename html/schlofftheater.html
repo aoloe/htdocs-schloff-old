@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>&laquo; <?= $title ?> &raquo;</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--UTF8 Schweiz-->
+	<link rel="stylesheet" href="schloff.css" type="text/css" media="screen" />
+</head>
+	
+<body>
+<div id="kopf">
+		<img src="bild/banner_<?= $banner ?>.jpg" id="banner" alt="Schlofftheater">
+		<a href="index.php"><img src="bild/logo_390.png" alt="logo" id="logo"></a>
+
+	<div id="navigation">
+		<ul>
+			<li><a href="projekte.php">Die Projekte</a></li>
+			<li><a href="person.php">Die Person</a></li>
+			<li><a href="arbeitsmethode.php">Die Arbeitsmethode</a></li>
+			<li><a href="angebot.php">Das Angebot</a></li>
+			<li><a href="kontakt.php">Der Kontakt</a></li>
+		</ul>
+	</div>
+</div>
+<div id="hauptteil" style="position: relative;">
+	<div id="inhalt">
+    <?= $content ?>
+	</div>
+</div>
+<div id="fusszeile">
+	<div id="signatur">	
+		<p>Schlofftheater &laquo;&raquo; Beatrice Mock &laquo;&raquo; Theologin &laquo;&raquo; Theaterpädagogin MAS &laquo;&raquo; Weberstrasse&nbsp;5&nbsp;&laquo;&raquo;&nbsp;CH&nbsp;-&nbsp;9400&nbsp;Rorschach</p>
+	</div>
+</div>
+</body>
+</html>

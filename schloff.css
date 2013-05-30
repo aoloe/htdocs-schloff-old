@@ -1,0 +1,195 @@
+div {
+	margin:0px;
+	padding: 0px;
+}		
+body {
+	position:relative;
+	font-family:sans-serif;
+	background:url(bild/background.jpg) repeat;	
+	padding: 20px 0px 50px 20px; /* Abstand oben, rechts, unten, links */
+	margin:0px;
+}
+#kopf { 
+	position:relative;
+	padding: 15px;
+	width: 860px; 
+	height:240px; /*bis direkt unter Navigation */
+	background-color: #FFFFFF;
+}
+#hauptteil { 
+	padding: 15px; /* abstand bevor Titel oder Text */
+	width: 860px;
+	background-color:#FFFFFF;
+}
+#fusszeile {
+	position:absolute;
+	bottom: 0px;
+	padding: 15px; /* Abstand bevor signatur*/
+	width: 860px;
+	background-color:#FFFFFF;
+}
+
+/* kopf */
+#banner { 
+	border-bottom:4px solid darkorange;
+}
+#logo {
+	position:absolute; 
+	top: 80px; 
+	left: 30px;
+}
+#navigation {
+	padding-top: 10px;
+}
+#navigation ul {
+	margin:0px;/* auf null, sonst programmabstand */
+	padding:0px; 
+}
+#navigation li {
+	display:inline;
+	padding-right: 35px;
+	font-size: 100%;
+}
+#navigation li a, 
+#navigation li a:visited { 
+	color:#303754;
+	text-decoration:none;
+}
+#navigation li a:hover {
+	color:#f18d13;
+}
+/* hauptteil */
+#titel {
+	color:darkorange; /* #acb2e4; #9999FF*/
+	margin-top:50px;
+	font-weight: normal;
+	font-size:23pt;
+	margin-bottom: 18px;
+}
+#inhalt { 
+}
+/* fusszeile */
+#signatur { 
+	border-top:1px solid darkorange; /* #303754; */
+/*	color: #303754;  Farbe vom Mond*/
+}
+h1 {
+	color:darkorange;
+	margin-top:50px;
+	font-weight: normal;
+	font-size:23pt;
+	margin-bottom: 28px;
+}	
+h2 {
+	color:darkorange;
+	margin-top:25px;
+	font-weight: 600; /* vorher: normal */
+	font-size:100%; /*vorher: 110%*/
+	margin-bottom: 2px; /*urspr. 0px bis 4px */
+}	
+p {
+	margin-bottom:2px; /* abstand zu nächstem Paragraf */
+	padding-bottom: 0px;
+	margin-top:0px;
+	padding-top: 0px;
+}
+/*em {
+	color:orangered;
+	font-style: normal;/*orangered, #acb2e4 
+			/*crimson, deeppink,gold 
+} */
+ul.ohne {
+	list-style-type:none;
+	margin-left: 0px;
+	padding-left: 0px
+}
+a,a:visited {	
+	color: #000000; /* darkorange; */
+	/* text-decoration:none; */
+}
+a:hover {
+	color:#f18d13;
+}
+a img {
+	border:none;
+}
+
+/* arbeitsmethode */
+
+h2.methode {
+    margin-top:25px;
+		margin-left: 0px; 
+		font-weight: normal;
+		font-size:110%;
+/*	margin-bottom: 4px; /*urspr. 2px*/
+}
+/* projekte */
+
+    div.projekte {
+        position:relative;
+        margin-bottom:20px;
+    }
+
+    div.projekte p,h3 {
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    div.projekte img {
+        position:absolute;
+        top:0px;
+        left:0px;
+		width:100px; /*bildgrösse*/
+		height:100px;
+	}
+
+	div.projekte_inhalt { /*   div.projekte */
+        margin-left:120px;
+        min-height:100px;
+    }
+	div.projekte p.datum {
+		margin-top: 0px; /* macht nur Abstand zwischen Bildern */
+		color: darkorange;
+    }
+	div.projekte p.abstand {
+		margin-top: 2px; 
+    }
+    div.projekte h3 {
+		font-size:medium;
+		color:orangered; /*orangered;*/
+		font-weight:500; /* normal */
+		margin-top: 3px;
+    }
+	div.projekte p.beschreibung {
+		font-weight: 500;
+		margin-top: 8px;
+    }
+	div.projekte p.ort {
+		margin-top: 3px;
+    }
+/* person */
+
+    div.person p {
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    div.person h2 {
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-top:0px;
+        padding-bottom:0px;
+    }
+    div.person img {
+        position:absolute;
+        top:0px;
+        left:0px;
+/*		width:100px; /*bildgrösse*/
+/*		height:100px; */
+	}
+	h2.person {
+	 	font-weight:500;
+		margin-top: 12px;	
+	}
